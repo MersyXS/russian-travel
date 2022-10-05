@@ -1,5 +1,5 @@
 .cover {
-  background: url("/images/overlay.png") no-repeat center/cover;
+  background: url("./images/overlay.png") no-repeat center/cover;
   margin: 92px auto 0 auto;
   display: flex;
   align-items: center;
