@@ -10,14 +10,12 @@
 .cover:after {
   content: "";
   width: 0;
-  height: 0;
   padding-top: calc(740 / 1184 * 100%);
 }
 
 .cover::before {
   content: "";
   display: block;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
