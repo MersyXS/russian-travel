@@ -2,10 +2,23 @@
   max-width: 484px;
 }
 
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    max-width: 288px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .place__text {
-    padding-left: 16px;
+    max-width: 352px;
+    padding: 0 16px;
     grid-column: 1;
     grid-row: 4;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .place__paragraph {
+    max-width: 288px;
   }
 }
