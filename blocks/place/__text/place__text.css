@@ -3,8 +3,8 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .place__paragraph {
-    max-width: 288px;
+  .place__text {
+    max-width: 352px;
   }
 }
 
@@ -12,8 +12,6 @@
   .place__text {
     max-width: 352px;
     padding: 0 16px;
-    grid-column: 1;
-    grid-row: 4;
   }
 }
 
